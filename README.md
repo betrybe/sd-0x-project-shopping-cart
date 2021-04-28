@@ -458,9 +458,11 @@ Crie um botão para remover todos os itens do carrinho de compras. Ele deve, **o
 
 ### 7 - Adicione um texto de "loading" durante uma requisição à API
 
-Uma requisição à API gasta um tempo e durante ele, ficamos sem saber se está tudo certo ou se algo deu errado.
-Normalmente é utilizada alguma forma para mostrar que a requisição está em andamento.
-Mostre a palavra "loading..." em algum lugar da página **apenas durante** a requisição à API. O elemento mostrado durante o carregamento da página deve, **obrigatóriamente**, ter a classe `loading`.
+Em uma requisição à uma API, o tempo gasto para executar e obter as informações podem variar devido a quantidade de requisições recebidas pelo servidor da API.
+
+Desse modo, normalmente é utilizado uma forma para representar quando uma requisição está em andamento. Por exemplo, um texto "Carregando as informações" ou uma animação na página web.
+
+Neste requisito, você deve apresentar a palavra **"loading..."** no período que requisição à API esteja acontecendo. Este elemento deve ser mostrado durante o carregamento da página e deve  **estar**, obrigatoriamente, na classe `loading` que deve ser incluída no arquivo html
 
 ---
 
