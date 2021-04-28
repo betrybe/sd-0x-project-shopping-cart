@@ -462,7 +462,7 @@ Em uma requisição à uma API, o tempo gasto para executar e obter as informaç
 
 Desse modo, normalmente é utilizado uma forma para representar quando uma requisição está em andamento. Por exemplo, um texto "Carregando as informações" ou uma animação na página web.
 
-Neste requisito, você deve apresentar a palavra **"loading..."** no período que requisição à API esteja acontecendo. Este elemento deve ser mostrado durante o carregamento da página e deve  **estar**, obrigatoriamente, na classe `loading` que deve ser incluída no arquivo html
+Neste requisito, você deve apresentar a palavra **"loading..."** no período que requisição à API esteja acontecendo. Este elemento deve ser mostrado durante o carregamento da página e deve estar, **obrigatoriamente**, na classe `loading` que deve ser incluída no arquivo html
 
 ---
 
